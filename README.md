@@ -18,10 +18,11 @@ TRIG is a output pin triggering the measurement process.
 
 The package can be installed by adding `nerves_hcsr04` to your list of dependencies in `mix.exs`:
 
+Once the main git repo is updated, i can delete this one. but in the meantime, use this.
 ```elixir
 def deps do
   [
-    {:nerves_hcsr04, "~> 0.1.0"}
+    {:es_hcsr04, "~> 0.2.0"}
   ]
 end
 ```

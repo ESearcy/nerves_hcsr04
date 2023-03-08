@@ -3,16 +3,16 @@ defmodule Hcsr04.MixProject do
 
   def project do
     [
-      app: :hcsr04,
-      version: "0.1.0",
-      elixir: "~> 1.11",
+      app: :es_hcsr04,
+      version: "0.2.0",
+      elixir: "~> 1.14",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: description(),
       package: package(),
       deps: deps(),
-      name: "Nerves_Hcsr04",
-      source_url: "https://github.com/OleMchls/nerves_hcsr04"
+      name: "es_Hcsr04",
+      source_url: "https://github.com/ESearcy/nerves_hcsr04"
     ]
   end
 
@@ -24,7 +24,7 @@ defmodule Hcsr04.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:circuits_gpio, "~> 0.4"},
+      {:circuits_gpio, "~> 1.0"},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false}
     ]
   end
@@ -36,9 +36,9 @@ defmodule Hcsr04.MixProject do
   defp package() do
     [
       # This option is only needed when you don't want to use the OTP application name
-      name: "hcsr04",
+      name: "es_hcsr04",
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/OleMchls/nerves_hcsr04"}
+      links: %{"GitHub" => "https://github.com/ESearcy/nerves_hcsr04"}
     ]
   end
 end
