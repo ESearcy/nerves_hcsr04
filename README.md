@@ -16,7 +16,7 @@ TRIG is a output pin triggering the measurement process.
 
 ## Installation
 
-The package can be installed by adding `nerves_hcsr04` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `es_hcsr04` to your list of dependencies in `mix.exs`:
 
 Once the main git repo is updated, i can delete this one. but in the meantime, use this.
 ```elixir
@@ -37,4 +37,4 @@ distance_in_mm = Hcsr04.read(pid)
 ---
 
 Once published, the docs can
-be found at [https://hexdocs.pm/hcsr04](https://hexdocs.pm/hcsr04).
+be found at [https://hexdocs.pm/es_hcsr04](https://hexdocs.pm/es_hcsr04).
