@@ -1,3 +1,5 @@
+Still doesn't seem to work. i'll keep fussing with it.
+
 # Nerves_Hcsr04
 
 A library to interface with the HC-SR04 ultrasonic distance sensor.
